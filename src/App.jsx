@@ -6,6 +6,7 @@ import Contact from './sections/Contact.jsx';
 import Clients from './sections/Clients.jsx';
 import Projects from './sections/Projects.jsx';
 import WorkExperience from './sections/Experience.jsx';
+import Divider from './components/Divider.jsx';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Divider />
       <Projects />
       <Clients />
       <WorkExperience />
