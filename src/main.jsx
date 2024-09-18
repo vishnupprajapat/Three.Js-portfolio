@@ -6,8 +6,8 @@ import SmoothScrolling from './lib/SmoothScrolling.jsx';
 import Cursor from './lib/Cursor.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <SmoothScrolling>
+  <StrictMode>
     <Cursor />
     <App />
-  </SmoothScrolling>,
+  </StrictMode>,
 );
