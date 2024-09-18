@@ -77,7 +77,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://vishnupprajapat/Three.Js-portfolio.git
+git clone https://github.com/vishnupprajapat/Three.Js-portfolio.git
 cd Three.Js-portfolio
 ```
 
