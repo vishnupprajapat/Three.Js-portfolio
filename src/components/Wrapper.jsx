@@ -12,12 +12,7 @@ const Wrapper = ({ children }) => {
       setIsLoading(false);
 
       window.scrollTo(0, 0);
-      //   const timer2 = setTimeout(() => {
-      //   }, 3000);
-      //   return () => {
-      //     clearTimeout(timer2);
-      //   };
-    }, 2900);
+    }, 4500);
     return () => {
       clearTimeout(timer);
     };

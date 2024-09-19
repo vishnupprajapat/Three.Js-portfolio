@@ -10,7 +10,7 @@ const opacity = {
 
   enter: {
     opacity: 0.75,
-    transition: { duration: 2.05, delay: 2 },
+    transition: { duration: 2.05, delay: 1.5 },
     fontSize: '3rem',
   },
 };
@@ -23,7 +23,7 @@ const slideUp = {
 
   exit: {
     top: '-100vh',
-    transition: { duration: 0.8, ease: [0.76, 0, 0.24, 1], delay: 2.05 },
+    transition: { duration: 0.8, ease: [0.76, 0, 0.24, 1], delay: 2.5 },
   },
 };
 
@@ -56,7 +56,7 @@ const Preloader = () => {
       () => {
         setIndex(index + 1);
       },
-      index == 0 ? 2000 : 350,
+      index == 0 ? 3000 : 350,
     );
   }, [index]);
 
@@ -71,12 +71,12 @@ const Preloader = () => {
   const curve = {
     initial: {
       d: initialPath,
-      transition: { duration: 0.7, ease: [0.76, 0, 0.24, 1] },
+      transition: { duration: 1, ease: [0.76, 0, 0.24, 1] },
     },
 
     exit: {
       d: targetPath,
-      transition: { duration: 0.7, ease: [0.76, 0, 0.24, 1], delay: 2.05 },
+      transition: { duration: 0.7, ease: [0.76, 0, 0.24, 1], delay: 2.6 },
     },
   };
 

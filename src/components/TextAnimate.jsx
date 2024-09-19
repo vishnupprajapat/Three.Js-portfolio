@@ -27,7 +27,7 @@ const TextAnimate = () => {
             <motion.span
               variants={charVariants}
               transition={{
-                duration: 2,
+                duration: 3,
                 stiffness: 450,
                 damping: 100,
                 ease: 'backInOut',
