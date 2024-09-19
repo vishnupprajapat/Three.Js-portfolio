@@ -13,6 +13,10 @@ body {
   background: #010103;
   font-family: 'General Sans', sans-serif;
   overflow-x: hidden;
+  overflow: hidden;
+}
+.scroll {
+  overflow-y: scroll;
 }
 
 @layer utilities {
@@ -269,3 +273,6 @@ body {
   cursor: pointer;
   opacity: 0.8;
 } */
+.curve {
+  height: calc(100% + 300px);
+}
