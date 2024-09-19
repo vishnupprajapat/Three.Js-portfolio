@@ -16,9 +16,13 @@ const App = () => {
       <About />
       <Divider />
       <Projects />
+      <Divider />
       <Clients />
+      <Divider />
       <WorkExperience />
+      <Divider />
       <Contact />
+      <Divider />
       <Footer />
     </main>
   );

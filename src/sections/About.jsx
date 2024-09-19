@@ -2,7 +2,6 @@ import { useState } from 'react';
 import Globe from 'react-globe.gl';
 
 import Button from '../components/Button.jsx';
-import { Canvas } from '@react-three/fiber';
 import DotCanvas from '../components/DotCanvas.jsx';
 import NumberSlider from '../components/NumberSlider.jsx';
 
@@ -74,17 +73,7 @@ const About = () => {
 
         <div className="xl:col-span-2 xl:row-span-3">
           <div className="grid-container">
-            {/* <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" /> */}
-            {/* <Canvas className="w-full h-full">
-              <mesh>
-                <planeGeometry args={[20, 20, 20]} />
-                <meshBasicMaterial color={0x000000} />
-              </mesh>
-              <ambientLight intensity={0.1} />
-              <directionalLight position={[0, 0, 5]} />
-            </Canvas> */}
             <DotCanvas />
-
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
