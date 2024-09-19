@@ -13,10 +13,6 @@ body {
   background: #010103;
   font-family: 'General Sans', sans-serif;
   overflow-x: hidden;
-  overflow: hidden;
-}
-.scroll {
-  overflow-y: scroll;
 }
 
 @layer utilities {
